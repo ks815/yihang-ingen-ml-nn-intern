@@ -1,0 +1,31 @@
+# Core ML / DL
+python-dotenv
+torch>=2.2
+scikit-learn
+pandas
+numpy
+matplotlib
+
+# Fine-tuning
+# transformers pinned <5.0: transformers 5.x requires torch>=2.4, which has
+# no macOS x86_64 wheels (PyTorch dropped Intel Mac builds after 2.2.2)
+transformers>=4.40,<5.0
+peft
+bitsandbytes
+accelerate
+datasets
+
+# Retrieval / RAG
+sentence-transformers
+faiss-cpu
+
+# Edge / quantization
+# torch.ao.quantization ships with torch, no separate package needed
+
+# Agentic / serving (optional, capstone extension)
+fastapi
+uvicorn
+
+# Notebooks
+jupyterlab
+ipykernel

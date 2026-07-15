@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Env
+.env
+
+# Model artifacts / checkpoints
+*.bin
+*.safetensors
+*.pt
+*.gguf
+checkpoints/
+runs/
+
+# Data (keep seeds/config, ignore generated datasets)
+data/*
+!data/README.md
+!data/*.json
+!data/*.yaml
+!data/*.seed
+
+# FAISS indices (regenerable)
+week03_finetune_rag/W03_RAG_Pipeline/*.index
+
+# OS
+.DS_Store
+
+# Word lock/temp files
+.~*
+~$*
