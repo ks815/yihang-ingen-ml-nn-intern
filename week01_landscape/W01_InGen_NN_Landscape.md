@@ -1,7 +1,5 @@
 # W01: InGen Dynamics Product and PIC 2.0 Landscape
 
-**Sources:** Public pages from `ingendynamics.com`, including the homepage and the pages for Fari, Senpai, Sentinel Prime AI, Aido Rover, Aido Humanoid, and Origami AI. Accessed July 14 and 15, 2026.
-
 ## Scope and source note
 
 InGen describes itself as a company that is still in development. Many of the performance numbers on its website, including latency, accuracy, and hardware targets, are presented as design goals rather than independently validated commercial results. I therefore treat these numbers as stated targets throughout this brief.
