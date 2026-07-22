@@ -1,10 +1,9 @@
 # Core ML / DL
 python-dotenv
 torch>=2.2
-scikit-learn<1.5    # 1.5+ scipy/sklearn releases dropped numpy<2 support
-scipy<1.13          # scipy 1.13+ requires numpy>=2.0
+scikit-learn
 pandas
-numpy<2              # torch 2.2.2 (the last macOS x86_64 build) predates numpy 2.x ABI support
+numpy
 matplotlib
 
 # Fine-tuning
