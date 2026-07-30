@@ -1,0 +1,18 @@
+{
+  "_note": "Held-out retrieval evaluation queries, phrased differently from the corresponding knowledge_base.json chunk's own wording. Written after the knowledge base and not used to build or tune the index -- only used in the retrieval evaluation step.",
+  "queries": [
+    {"query": "My resident with Alzheimer's is getting frustrated because she can't find the right words.", "relevant_chunk_id": "dementia_communication"},
+    {"query": "Someone suddenly seems confused about where they are, how should I respond?", "relevant_chunk_id": "disorientation_dementia"},
+    {"query": "Why is talking to older adults in a slow, sing-song voice actually a problem?", "relevant_chunk_id": "elderspeak_avoidance"},
+    {"query": "A resident hasn't heard from anyone in a while and seems withdrawn.", "relevant_chunk_id": "loneliness_response"},
+    {"query": "What's a good way to help a resident stay in touch with their family?", "relevant_chunk_id": "family_connection"},
+    {"query": "It's the anniversary of my resident's spouse passing away, what should I keep in mind?", "relevant_chunk_id": "grief_support"},
+    {"query": "A resident keeps refusing to confirm she took her medicine and gets annoyed when asked.", "relevant_chunk_id": "medication_reminders"},
+    {"query": "What kind of statements from an older adult should be taken seriously as a mental health risk sign?", "relevant_chunk_id": "crisis_recognition"},
+    {"query": "When should the system stop trying to handle something itself and get a professional involved?", "relevant_chunk_id": "escalation_handoff"},
+    {"query": "How common are falls among elderly people, and what's the general prevention approach?", "relevant_chunk_id": "fall_prevention_context"},
+    {"query": "What are the signs that someone might be having a stroke?", "relevant_chunk_id": "stroke_symptom_recognition"},
+    {"query": "What symptoms should make me worried someone is having a heart attack?", "relevant_chunk_id": "physical_symptom_urgency"},
+    {"query": "What's a good way to build day-to-day rapport that isn't just task reminders?", "relevant_chunk_id": "companionship_routine"}
+  ]
+}

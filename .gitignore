@@ -15,6 +15,7 @@ venv/
 *.gguf
 checkpoints/
 runs/
+dpo_run_*/
 
 # Data (keep seeds/config, ignore generated datasets)
 data/*

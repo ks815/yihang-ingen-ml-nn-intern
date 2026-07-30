@@ -1,19 +1,24 @@
 # Core ML / DL
 python-dotenv
 torch>=2.2
-scikit-learn
+scikit-learn<1.5    # 1.5+ dropped numpy<2 support
+scipy<1.13           # 1.13+ requires numpy>=2.0
 pandas
-numpy
+numpy<2               # torch 2.2.2 (the last macOS x86_64 build) predates numpy 2.x ABI support
 matplotlib
 
 # Fine-tuning
-# transformers pinned <5.0: transformers 5.x requires torch>=2.4, which has
-# no macOS x86_64 wheels (PyTorch dropped Intel Mac builds after 2.2.2)
-transformers>=4.40,<5.0
-peft
+# transformers/trl/peft/accelerate pinned to a mutually-compatible, torch-2.2-era
+# set. trl==0.9.6's DPOTrainer calls an older Trainer._inner_training_loop
+# signature; transformers>=4.46 changed that signature and breaks it
+# (TypeError: get_batch_samples() takes 3 positional arguments but 4 were given).
+transformers==4.44.2
+peft==0.12.0
+accelerate==0.33.0
 bitsandbytes
-accelerate
 datasets
+trl==0.9.6
+rich
 
 # Retrieval / RAG
 sentence-transformers

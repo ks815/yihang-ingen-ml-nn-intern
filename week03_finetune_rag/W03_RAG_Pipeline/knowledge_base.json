@@ -1,0 +1,83 @@
+{
+  "_note": "Chunks are written in my own words, grounded in real public sources (NIA/NIH, CDC, WHO, and peer-reviewed research indexed on PubMed/PMC), each cited with title + URL + section. Any direct quote is kept under 15 words with attribution. Two chunks (fall_response_communication, companionship_routine) are flagged as my own reasonable extrapolation rather than a direct source quote, since I couldn't find an NIA/CDC page giving a specific post-fall or daily-rapport script -- noting that honestly instead of implying a source that isn't there.",
+  "chunks": [
+    {
+      "chunk_id": "dementia_communication",
+      "topic": "Communicating with someone who has dementia or Alzheimer's",
+      "source": { "title": "Communicating With Someone Who Has Alzheimer's Disease", "publisher": "National Institute on Aging (NIH)", "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/communicating-someone-who-has-alzheimers" },
+      "text": "NIA recommends being open, patient, and nonjudgmental when talking with someone who has Alzheimer's. People with the disease may struggle to find words or forget what they were saying mid-sentence -- the guidance is to stay patient, avoid showing frustration, and not argue or try to correct them. When a conversation becomes difficult, NIA suggests redirecting attention to a new activity, like music, a book, or a walk, rather than continuing to push on the same point."
+    },
+    {
+      "chunk_id": "disorientation_dementia",
+      "topic": "Responding to confusion or disorientation",
+      "source": { "title": "Communicating With Someone Who Has Alzheimer's Disease", "publisher": "National Institute on Aging (NIH)", "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/communicating-someone-who-has-alzheimers" },
+      "text": "The same NIA guidance applies directly to sudden confusion about place or surroundings: don't argue about what's real, and don't over-correct. Gently reorient, then redirect attention rather than repeatedly stating the facts. Because new-onset disorientation can also signal a medical issue, that gentle redirection should be paired with letting a caregiver know, not treated as fully resolved once the person seems calmer."
+    },
+    {
+      "chunk_id": "elderspeak_avoidance",
+      "topic": "Avoiding patronizing tone ('elderspeak')",
+      "source": { "title": "Elderspeak to Resident Dementia Patients Increases Resistiveness to Care in Health Care Profession", "publisher": "PMC (PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7425308/" },
+      "text": "Research on elderspeak (simplified, sing-song, babytalk-style speech directed at older adults) found it's consistently rated as more patronizing and less respectful than neutral speech, and that it measurably increases resistance to care -- more negative vocalizations like yelling or crying during care tasks. The takeaway for a companion system: normal adult pacing and vocabulary, not exaggerated slowness or simplified 'caretaker voice,' even when the person has memory or cognitive changes."
+    },
+    {
+      "chunk_id": "loneliness_response",
+      "topic": "Responding to loneliness and social isolation",
+      "source": { "title": "Loneliness and Social Isolation — Tips for Staying Connected", "publisher": "National Institute on Aging (NIH)", "url": "https://www.nia.nih.gov/health/loneliness-and-social-isolation/loneliness-and-social-isolation-tips-staying-connected" },
+      "text": "NIA distinguishes loneliness (the distressing feeling of being alone) from social isolation (actually having few social contacts), and links both to higher risk of heart disease, depression, and cognitive decline. Their core recommendation is proactive, scheduled contact -- setting aside time to reach out to family and friends regularly, in person, by phone, or by video call -- rather than waiting for isolation to be raised as a problem."
+    },
+    {
+      "chunk_id": "family_connection",
+      "topic": "Facilitating family connection",
+      "source": { "title": "Loneliness and Social Isolation — Tips for Staying Connected", "publisher": "National Institute on Aging (NIH)", "url": "https://www.nia.nih.gov/health/loneliness-and-social-isolation/loneliness-and-social-isolation-tips-staying-connected" },
+      "text": "Building on the same NIA guidance: scheduled, regular contact with family is the specific recommendation, not just 'more socializing' in general. For a companion robot, that translates to proactively offering to place a call or set up a standing video chat when a resident mentions missing someone, rather than waiting to be asked, since NIA frames the isolation risk as something to address on a schedule."
+    },
+    {
+      "chunk_id": "grief_support",
+      "topic": "Grief and mourning support",
+      "source": { "title": "Grief and mourning / Coping With Grief and Loss", "publisher": "National Institute on Aging (NIH)", "url": "https://www.nia.nih.gov/health/grief-and-mourning" },
+      "text": "NIA is explicit that there is no right or wrong way to grieve, and that for most people intense pain lessens with time on its own. It also names 'complicated grief' as a condition where mourning becomes so prolonged or distressing that it stops resolving naturally and needs outside support. Practically: acknowledging a loss (including anniversaries) without forcing conversation about it is consistent with this guidance, but persistent, unresolving distress is a signal to involve additional support, not just companionship."
+    },
+    {
+      "chunk_id": "medication_reminders",
+      "topic": "Medication adherence reminders",
+      "source": { "title": "Attitudes, Beliefs, and Cost-Related Medication Nonadherence Among Adults Aged 65 or Older", "publisher": "CDC (Preventing Chronic Disease)", "url": "https://www.cdc.gov/pcd/issues/2018/18_0190.htm" },
+      "text": "CDC-linked research on medication adherence in older adults points to simplified regimens and plain-language, visual reminder materials as more effective than repeated verbal instruction, and notes that impaired cognition and health literacy are real barriers. Team-based reminder approaches (rather than one person repeatedly asking) were associated with meaningfully higher adherence. For a companion robot, that supports logging/visual confirmation over repeated verbal nagging when a resident says they've already taken medication."
+    },
+    {
+      "chunk_id": "crisis_recognition",
+      "topic": "Recognizing mental health risk in older adults",
+      "source": { "title": "Mental health of older adults", "publisher": "World Health Organization", "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults" },
+      "text": "WHO reports that depression and anxiety are the most common mental health conditions in older adults, that these conditions are frequently underrecognized and undertreated, and that stigma is a real barrier to people seeking help. WHO also names social isolation and functional disability as risk factors connected to suicide risk in this age group. The practical implication: expressions of hopelessness or worthlessness shouldn't be waved off as 'just talk' given how often these conditions go unaddressed in this population."
+    },
+    {
+      "chunk_id": "escalation_handoff",
+      "topic": "When to hand off to a human / specialized care",
+      "source": { "title": "Mental health of older adults", "publisher": "World Health Organization", "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults" },
+      "text": "WHO's mhGAP guidance is built around equipping non-specialized settings to recognize risk conditions (depression, suicide risk, dementia, among others) and refer people into appropriate care, rather than expecting non-specialists to treat them directly. That's the same principle a companion system should follow: the job is recognizing a risk signal and escalating to a qualified human quickly, not attempting to resolve a mental-health-adjacent disclosure through conversation alone."
+    },
+    {
+      "chunk_id": "fall_prevention_context",
+      "topic": "Fall risk and prevention framework",
+      "source": { "title": "STEADI — Older Adult Fall Prevention", "publisher": "CDC", "url": "https://www.cdc.gov/steadi/index.html" },
+      "text": "CDC's STEADI framework reports that roughly 1 in 4 adults 65+ falls each year, and structures fall prevention around three steps: screen for fall risk, assess risk factors, and intervene. STEADI's own materials focus on prevention and clinical screening rather than a specific 'what to say right after a fall' script -- so the immediate post-fall response used in this project's dialogue examples (stay still, don't try to stand, get help) is my own reasonable safety-first extrapolation, not a direct STEADI quote, and I want to be upfront about that distinction."
+    },
+    {
+      "chunk_id": "stroke_symptom_recognition",
+      "topic": "Recognizing possible stroke symptoms",
+      "source": { "title": "Signs and Symptoms of Stroke", "publisher": "CDC", "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html" },
+      "text": "CDC's FAST framework for stroke: Face drooping (ask the person to smile, check if one side droops), Arm weakness (raise both arms, check if one drifts down), Speech difficulty (repeat a phrase, check if it's slurred), and Time to call 911 immediately if any of these are present. CDC states stroke treatment works best within 3 hours of first symptoms, so recognizing these signs and escalating fast matters more than trying to confirm the diagnosis conversationally."
+    },
+    {
+      "chunk_id": "physical_symptom_urgency",
+      "topic": "Recognizing possible heart attack symptoms",
+      "source": { "title": "About Heart Attack Symptoms, Risk, and Recovery", "publisher": "CDC", "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html" },
+      "text": "CDC lists the common heart attack warning signs as chest pain or pressure, pain or discomfort in one or both arms/shoulders, jaw/neck/back pain, feeling weak or light-headed, and shortness of breath -- and states plainly that anyone noticing these symptoms in themselves or someone else should call 911 immediately. Consistent with the stroke guidance above, the instruction is to escalate on symptom recognition, not to try to reason through how serious it might be first."
+    },
+    {
+      "chunk_id": "companionship_routine",
+      "topic": "Building rapport through daily interaction",
+      "source": { "title": "Reasoned extrapolation from NIA's loneliness/connection guidance", "publisher": "N/A — not a direct source quote", "url": "https://www.nia.nih.gov/health/loneliness-and-social-isolation/loneliness-and-social-isolation-tips-staying-connected" },
+      "text": "NIA's connection guidance is about scheduled contact generally, not specifically about a companion robot's day-to-day small talk -- so this chunk is my own reasoning rather than a direct citation: if isolation risk is reduced by regular, low-effort contact (per the loneliness chunk above), then a companion's routine greetings and small talk plausibly serve the same function in miniature, and personalizing them (remembered preferences, not generic scripts) is consistent with NIA's broader emphasis on real relationships over passive technology."
+    }
+  ]
+}
